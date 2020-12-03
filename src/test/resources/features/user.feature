@@ -1,4 +1,5 @@
-@smoke
+
+@wip
 Feature: User Verification
 
 
