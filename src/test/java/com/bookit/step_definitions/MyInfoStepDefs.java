@@ -21,6 +21,7 @@ public class MyInfoStepDefs {
 	    signInPage.password.sendKeys(password);
 		BrowserUtils.waitFor(1);
 	    signInPage.signInButton.click();
+		BrowserUtils.waitFor(1);
 
 
 	    	    
@@ -30,6 +31,7 @@ public class MyInfoStepDefs {
 	public void user_is_on_the_my_self_page() {
 	    SelfPage selfPage = new SelfPage();
 	    selfPage.goToSelf();
+		BrowserUtils.waitFor(1);
 		
 	}
 
